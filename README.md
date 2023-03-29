@@ -16,7 +16,11 @@
         A Vercel é uma plataforma de hospedagem e implantação que oferece integração perfeita com o Next.js e outros frameworks JavaScript. Utilizei a Vercel para implantar nossa aplicação, já que ela fornece uma solução fácil e rápida para colocar nossa API Next.js em produção.
     </p>
     <p>
-        Com esta configuração, podemos aproveitar a velocidade e a escalabilidade do Next.js e do MongoDB, enquanto a Vercel cuida da implantação e hospedagem da aplicação.
+        Com esta configuração, podemos aproveitar a velocidade e a escalabilidade do Next.js e do MongoDB, enquanto a Vercel cuida da implantação e hospedagem da aplicação. Para testar a aplicação faça uma requisição para o endpoint: https://cpf-validator-nextjs.vercel.app/api/cpf e passe como parâmetro o body da requisição
+        <br>
+{ <br>
+  "cpf": "903.517.200-06" <br>
+}<br>
     </p>
 </body>
 </html>
